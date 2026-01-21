@@ -12,16 +12,6 @@ export default function Header() {
           The Philomath
         </Link>
       </div>
-
-      {/* Navigation */}
-      <nav className="flex items-center gap-4">
-        <a
-          href="https://analytics.thephilomath.org"
-          className="text-white px-3 py-1.5 text-sm rounded-lg hover:bg-white/10"
-        >
-          Textbook
-        </a>
-      </nav>
     </header>
   );
 }
