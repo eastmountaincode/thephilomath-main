@@ -7,7 +7,7 @@ export default function Header() {
       <div className="flex items-center min-w-0">
         <Link
           href="/"
-          className="text-white text-sm md:text-lg hover:opacity-80 truncate"
+          className="text-white text-lg hover:opacity-80"
         >
           The Philomath
         </Link>
