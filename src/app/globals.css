@@ -1,11 +1,21 @@
 @import "tailwindcss";
 
 :root {
+  /* Colors */
   --background: #faf9f6;
   --foreground: #1a1a1a;
   --berkeley-blue: #003262;
   --california-gold: #FDB515;
   --muted-text: #6b7280;
+  --card-border: #e5e7eb;
+
+  /* Spacing - matching textbook */
+  --space-xs: 0.25em;
+  --space-sm: 0.5em;
+  --space-md: 1em;
+  --space-lg: 1.5em;
+  --space-xl: 2em;
+  --space-2xl: 3em;
 }
 
 @theme inline {
@@ -29,4 +39,20 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Button styles - matching textbook */
+.btn-primary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--berkeley-blue);
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  text-decoration: none;
 }
