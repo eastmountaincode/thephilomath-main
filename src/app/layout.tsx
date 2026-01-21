@@ -10,7 +10,7 @@ const garamond = EB_Garamond({
 
 export const metadata: Metadata = {
   title: "The Philomath",
-  description: "A space dedicated to rigorous thinking and accessible education",
+  description: "A space dedicated to rigorous thinking and accessible education in data analytics, statistics, and probability.",
   icons: {
     icon: [
       { url: "/favicon/favicon.ico", sizes: "any" },
@@ -22,8 +22,23 @@ export const metadata: Metadata = {
   manifest: "/favicon/site.webmanifest",
   openGraph: {
     title: "The Philomath",
-    description: "A space dedicated to rigorous thinking and accessible education",
+    description: "A space dedicated to rigorous thinking and accessible education in data analytics, statistics, and probability.",
     type: "website",
+    siteName: "The Philomath",
+    images: [
+      {
+        url: "/data-analytics.png",
+        width: 512,
+        height: 512,
+        alt: "The Philomath",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "The Philomath",
+    description: "A space dedicated to rigorous thinking and accessible education in data analytics, statistics, and probability.",
+    images: ["/data-analytics.png"],
   },
 };
 
