@@ -6,7 +6,7 @@ export default function Home() {
       <Header />
 
       <main className="pt-14">
-        <div className="mx-auto max-w-4xl px-8 py-8">
+        <div className="mx-auto max-w-4xl px-10 py-10">
           {/* Hero Section */}
           <header className="mb-12 text-center">
             <h1 className="mb-6 text-4xl font-bold text-[var(--berkeley-blue)]">
