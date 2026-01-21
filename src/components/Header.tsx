@@ -17,7 +17,7 @@ export default function Header() {
       <nav className="flex items-center gap-4">
         <a
           href="https://analytics.thephilomath.org"
-          className="px-3 py-1.5 text-sm rounded-lg hover:bg-white/10 transition-colors"
+          className="text-white px-3 py-1.5 text-sm rounded-lg hover:bg-white/10"
         >
           Textbook
         </a>

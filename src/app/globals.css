@@ -41,6 +41,15 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Header links should be white */
+header a {
+  color: white;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
 /* Button styles - matching textbook */
 .btn-primary {
   display: inline-block;
